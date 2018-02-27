@@ -1,0 +1,98 @@
+html,
+body,
+#sky{
+    height: 70%;
+    background-color: lightblue;
+    box-sizing: border-box;
+    width: 100%;
+}
+#cld{
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    margin-top: 25px;
+    animation-name: kloud;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#cld:nth-child(1){
+    width: 200px;
+    top: 120px;
+    opacity: 0.5;
+    animation: wind 80s linear infinite;
+    animation-name: kloud;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+    
+}
+#cld:nth-child(2){
+    width: 300px;
+    top: 0;
+}
+@keyframes kloud{
+    from{
+        transform: translateX(0);
+        
+    }
+    to{
+        transform: translateX(1200px);
+    }
+}
+#grass{
+    height: 45%;
+    background-color: lightgreen;
+    box-sizing: border-box;
+    width: 100%
+}
+#road{
+    height: 80%;
+    background-color: grey;
+    box-sizing: border-box;
+    width: 100%
+}
+#lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 72%;
+}
+#mario{
+   position: absolute;
+    top: 30px;
+    left: 0px;
+    margin-top: 320px;
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes drive{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(1200px);
+    }
+}
+#mario2{
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    margin-top: 530px;
+    animation-name: rev;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rev{
+    from{
+        transform: translateX(o);
+    }
+    to{
+        transform: translateX(1200px);
+    }
+}
