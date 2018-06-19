@@ -21,7 +21,7 @@ function dr(){
     var number=[];
     for(i=0;i<5;i++){
         var num=number.push(prompt("Enter a number"));
-//    }
+    }
 //    var count=0;
 //    for(x=0;x<number.length;x++){
 //        if(number[x]==9){
