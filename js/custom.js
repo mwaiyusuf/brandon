@@ -17,7 +17,7 @@
 //    }
 //}
 //sad()
-//function dr(){
+function dr(){
 //    var number=[];
 //    for(i=0;i<5;i++){
 //        var num=number.push(prompt("Enter a number"));
