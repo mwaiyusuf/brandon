@@ -25,7 +25,7 @@ function dr(){
     var count=0;
     for(x=0;x<number.length;x++){
         if(number[x]==9){
-//            count++;
+            count++;
 //        }
 //        
 //    }
