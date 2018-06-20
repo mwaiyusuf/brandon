@@ -28,7 +28,7 @@ function dr(){
             count++;
         }
         
-//    }
+    }
 //    if(count>=1){
 //        alert(count);
 //    }
