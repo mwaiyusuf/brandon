@@ -33,7 +33,7 @@ function dr(){
         alert(count);
     }
     else{
-//        alert("There is no number 9 presence");
+        alert("There is no number 9 presence");
 //    }
 //    if(number==9){
 //        alert("There is number nine ");
