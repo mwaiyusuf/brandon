@@ -32,7 +32,7 @@ function dr(){
     if(count>=1){
         alert(count);
     }
-//    else{
+    else{
 //        alert("There is no number 9 presence");
 //    }
 //    if(number==9){
