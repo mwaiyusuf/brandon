@@ -36,7 +36,7 @@ function dr(){
         alert("There is no number 9 presence");
     }
     if(number==9){
-//        alert("There is number nine ");
+        alert("There is number nine ");
 //    }
 //    else{
 //        alert("Theres no such number");
