@@ -38,7 +38,7 @@ function dr(){
     if(number==9){
         alert("There is number nine ");
     }
-//    else{
+    else{
 //        alert("Theres no such number");
 //    }
 //    
