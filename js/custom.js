@@ -40,7 +40,7 @@ function dr(){
     }
     else{
         alert("Theres no such number");
-//    }
+    }
 //    
 //}
 //dr();
