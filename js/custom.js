@@ -39,7 +39,7 @@ function dr(){
         alert("There is number nine ");
     }
     else{
-        alert("There is such number");
+        alert("There isn't such number");
     }
     
 }
