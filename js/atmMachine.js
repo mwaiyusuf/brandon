@@ -11,7 +11,7 @@ function atm(){
             }
             else if(proceed==2){
                 var withdraw=prompt("Enter the amount you want to withdraw");
-                bal=balance-withdraw;
+                Int /bal=balance-withdraw;
                 if(withdraw>=balance){
                     alert("your amount is insufficient");
                 }
@@ -21,8 +21,8 @@ function atm(){
             }
             else if(proceed==3){
                 var deposit=prompt("enter the amount you want to deposit");
-                dep=deposit+balance;
-                alert("you have deposited " + dep);
+               Int  dep = deposit + balance;
+                alert("you have deposited " + deposit + " and your balance is " + dep);
             }
             break;
         }
