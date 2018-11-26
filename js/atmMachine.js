@@ -11,7 +11,7 @@ function atm(){
             }
             else if(proceed==2){
                 var withdraw=prompt("Enter the amount you want to withdraw");
-                Int /bal=balance-withdraw;
+                Int bal=balance-withdraw;
                 if(withdraw>=balance){
                     alert("your amount is insufficient");
                 }
