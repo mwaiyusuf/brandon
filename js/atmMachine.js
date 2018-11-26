@@ -21,7 +21,7 @@ function atm(){
             }
             else if(proceed==3){
                 var deposit=prompt("enter the amount you want to deposit");
-               Int  dep = deposit + balance;
+               Int  dep=deposit+balance;
                 alert("you have deposited " + deposit + " and your balance is " + dep);
             }
             break;
