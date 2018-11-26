@@ -16,7 +16,7 @@ function atm(){
                     alert("your amount is insufficient");
                 }
                 else{
-                    alert("you have withdrawn " + withdraw + " adn your balance is " + bal);
+                    alert("you have withdrawn " + withdraw + " and your balance is " + bal);
                 }
             }
             else if(proceed==3){
