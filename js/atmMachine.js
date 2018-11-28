@@ -19,11 +19,11 @@ function atm(){
                     alert("you have withdrawn " + withdraw + " and your balance is " + bal);
                 }
             }
-            else if(proceed==3){
-                var deposit=prompt("enter the amount you want to deposit");
-               Int  dep=deposit+balance;
-                alert("you have deposited " + deposit + " and your balance is " + dep);
-            }
+//            else if(proceed==3){
+//                var deposit=prompt("enter the amount you want to deposit");
+//               Int  dep=deposit+balance;
+//                alert("you have deposited " + deposit + " and your balance is " + dep);
+//            }
             break;
         }
         else{
