@@ -33,3 +33,4 @@
 //    
 //}
 //atm();
+var x=prompt("Enter a number");
