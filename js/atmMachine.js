@@ -34,3 +34,7 @@
 //}
 //atm();
 var x=prompt("Enter a number");
+ parseInt(x);
+var y=prompt("Enter a number");
+parseInt(y);
+var z=x+y;
