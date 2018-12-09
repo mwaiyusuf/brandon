@@ -33,7 +33,7 @@
 //    
 //}
 //atm();
-var x=prompt("Enter an number");
+var x=prompt("Enter an od number");
  parseInt(x);
 var y=prompt("Enter a whole number");
 parseInt(y);
