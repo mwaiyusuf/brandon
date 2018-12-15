@@ -38,3 +38,12 @@
 //var y=prompt("Enter a whole number");
 //parseInt(y);
 //var z=x+y;
+function odeve(){
+    var number=[];
+    for(i=0; i<=6; i++){
+        var num=number.push(prompt("Enter a number"));
+    }
+    break;
+    
+}
+odeve();
