@@ -45,8 +45,17 @@ function odeve(){
 //    }
 //    break;
     var number=[];
-    for(i=0; i<=number.length; i++){
-    var num=number.push(prompt("Enter a number"));
+    for(i=0; i<5; i++){
+    var num=number.push(prompt("Enter  anumber"));
     }
+    var count=0;
+    for(k=0; k<number.length; k++){
+        if(number[k]>=0){
+            count++
+        }
+        
+    }
+    
+    
 }
 odeve()
