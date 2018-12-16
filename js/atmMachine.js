@@ -46,7 +46,7 @@ function odeve(){
 //    break;
     var number=[];
     for(i=0; i<5; i++){
-    var num=number.push(prompt("Enter  an umber"));
+    var num=number.push(prompt("Enter  a number"));
     }
     var count=0;
     for(k=0; k<number.length; k++){
