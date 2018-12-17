@@ -51,7 +51,7 @@ function odeve(){
     var count=0;
     for(k=0; k<number.length; k++){
         if(number[k]>=0){
-            count++
+            countz++
         }
        Else {
            count++
