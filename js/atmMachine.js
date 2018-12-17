@@ -54,10 +54,11 @@ function odeve(){
             countz++
         }
        Else {
-           count++
+           county++
        } 
         
     }
+    alert("Positive numbers are " + countz + "\n Negative number are " + county);
     
     
 }
