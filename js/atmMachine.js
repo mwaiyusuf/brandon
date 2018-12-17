@@ -53,6 +53,9 @@ function odeve(){
         if(number[k]>=0){
             count++
         }
+       Else {
+           count++
+       } 
         
     }
     
