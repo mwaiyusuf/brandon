@@ -33,13 +33,13 @@ function dr(){
         alert(count);
     }
     else{
-        alert("There is no number 9  in presence");
+        alert("There is no positive number  in presence");
     }
-    if(number==9){
-        alert("There is number nine ");
+    if(number>=0){
+        alert("There is a positive number ");
     }
     else{
-        alert("There isn't such number");
+        alert("There is no positive number");
     }
     
 }
