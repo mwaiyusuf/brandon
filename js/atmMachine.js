@@ -38,28 +38,10 @@
 //var y=prompt("Enter a whole number");
 //parseInt(y);
 //var z=x+y;
-function odeve(){
+//function odeve(){
 //    var number=[];
 //    for(i=0; i<=6; i++){
 //        var num=number.push(prompt("Enter a number"));
 //    }
 //    break;
-    var number=[];
-    for(i=0; i<5; i++){
-    var num=number.push(prompt("Enter 8 numbers"));
-    }
-    var count=0;
-    for(k=0; k<number.length; k++){
-        if(number[k]>=0){
-            countz++
-        }
-       Else {
-           county++
-       } 
-        
-    }
-    alert("Positive numbers are " + countz + "\n Negative number are " + county);
-    
-    
-}
-odeve()
+   /
