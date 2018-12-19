@@ -73,7 +73,7 @@ function negposv(){
             }
 
              alert("Numbers of positive integers: " + positive);
-             alert("Number of negative integers: " + negative);
+             alert("Numbers of negative integers: " + negative);
   
 }
 negposv();
