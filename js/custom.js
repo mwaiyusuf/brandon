@@ -17,30 +17,65 @@
 //    }
 //}
 //sad()
-function dr(){
-    var number=[];
-    for(i=0;i<5;i++){
-        var num=number.push(prompt("Enter a number"));
-    }
-    var count=0;
-    for(x=0;x<number.length;x++){
-        if(number[x]>=0){
-            count++;
-        }
-        
-    }
-    if(count>=1){
-        alert(count);
-    }
-    else{
-        alert("There is no positive number  in presence");
-    }
-    if(number>=0){
-        alert("There is a positive number ");
-    }
-    else{
-        alert("There is no positive number");
-    }
-    
+//function dr(){
+//    var number=[];
+//    for(i=0;i<5;i++){
+//        var num=number.push(prompt("Enter a number"));
+//    }
+//    var count=0;
+//    for(x=0;x<number.length;x++){
+//        if(number[x]>=0){
+//            county++;
+//        }
+//        else{
+//            countz++;
+//        }
+//        
+//    }
+//    if(count>=1){
+//        alert(county);
+//    }
+//    else{
+//        alert("There is no positive number  in presence");
+//    }
+//    if(number>=0){
+//        alert("There is a positive number ");
+//    }
+//    else{
+//        alert("There is no positive number");
+//    }
+//    
+//}
+//dr();
+function negposv(){
+  
+ int[] numbers = (x , y, z);
+ for(int i = 0; i < numbers.length; i++)
+
+                {
+
+                if(numbers[i] < 0)
+
+                {
+
+                negative = negative + 1;
+
+                }
+
+                else
+
+                {
+
+                positive = positive + 1;
+
+                }
+
+            }
+
+             alert("Numbers of positive integers: " + positive);
+             alert("Number of negative integers: " + negative);
+  
 }
-dr();
+negposv();
+            
+
