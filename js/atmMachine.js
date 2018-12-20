@@ -44,4 +44,4 @@
 //        var num=number.push(prompt("Enter a number"));
 //    }
 //    break;
-   /
+   
